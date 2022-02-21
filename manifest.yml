@@ -6,4 +6,6 @@ applications:
   - us-south.cf.appdomain.cloud
   host: priar
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
+  #path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
   # path: '${{ github.workspace }}/target/*.jar'
